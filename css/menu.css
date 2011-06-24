@@ -4,23 +4,19 @@
 /***************************
 /*Menu
 /************************/
-.nom-menu {
-  text-align: center;
-  font-family: serif;
-  /*weight: bold;*/
-  /*size: 1.2 em;*/ }
-
-.icone-menu {
-  display: block; }
-
-.item-menu {
-  display: block;
-  float: left;
-  list-style-type: none;
-  margin: 15px; }
-
 #Dashboard {
   text-align: center; }
 
 #Dashboard li:nth-child(4), #Dashboard li:nth-child(7), #Dashboard li:nth-child(10) {
   clear: both; }
+
+.item-menu {
+  display: block;
+  float: left;
+  list-style-type: none;
+  margin: 10px; }
+  .item-menu span {
+    font-size: 0.5em; }
+
+.icone-menu {
+  display: block; }

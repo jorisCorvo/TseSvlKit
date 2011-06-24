@@ -6,31 +6,30 @@
 /***************************
 /*Menu
 /************************/
-.nom-menu {
-	text-align: center;
-	font :{
-		family: serif;
-		/*weight: bold;*/
-		/*size: 1.2 em;*/
-		}
+#Dashboard {
+ text-align : center;
 }
-.icone-menu{
-	display :  block;
+
+#Dashboard  li:nth-child(4), #Dashboard  li:nth-child(7), #Dashboard  li:nth-child(10) {
+clear: both;
 }
+
 .item-menu {
     display : block;
 	float : left;
 	list-style-type: none;
-	margin : 15px;
-	
+	margin : 10px;
+	span{
+		font-size: 0.5em;
+	}
 }
-#Dashboard {
- text-align : center;
 
+.icone-menu{
+	display :  block;
 }
-#Dashboard  li:nth-child(4), #Dashboard  li:nth-child(7), #Dashboard  li:nth-child(10) {
-clear: both;
-}
+
+
+
 
 
 
