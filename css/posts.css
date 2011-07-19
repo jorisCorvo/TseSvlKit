@@ -1,0 +1,31 @@
+/***************************
+/*Variables
+/***********************/
+	
+
+/***************************
+/*Images
+/************************/
+.post_img{
+	float : left;
+	margin : 10px;
+
+}
+
+.screen_name{
+	display : inline;
+	margin-right: 5px;
+	
+}
+
+.name{
+	display : inline;
+}
+
+.post_content{
+	margin-top : 5px;
+	white-space : pre-wrap;
+	
+}
+
+
