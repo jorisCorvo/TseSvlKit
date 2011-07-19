@@ -19,6 +19,7 @@ function makeHttpObject() {
 
   throw new Error("Could not create HTTP request object.");
 }
-function tester(){
-	return "crap";
-	}
+
+function evalJSON(json) {
+  return eval("(" + json + ")");
+}
