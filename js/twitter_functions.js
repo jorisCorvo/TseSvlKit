@@ -1,10 +1,11 @@
 function makeTwitterPost(input){
 	var result="<li><a href=\"\"><div class=\"ui-btn-text\">"+
 					"<img class=\"post_img\" src=\"rss/logo_spirale_normal.jpg\">"+
-					"<h3 class=\"screen_name\">"+input.user.screen_name+"</h3>"+
-					"<p class=\"name\">  "+input.user.name+"</p>"+
-					"<p class=\"post_content\">"+input.text+"</p>"+
-					"<p class=\"post_date\">"+makeTwitterDate(input.created_at)+"</p></div></a></li>";
+					"<div classe=\"post_content\"><h3 class=\"screen_name\">"+input.user.screen_name+"</h3>"+
+							"<p class=\"name\">  "+input.user.name+"</p>"+
+							"<p class=\"post_text\">"+input.text+"</p>"+
+							"<p class=\"post_date\">"+makeTwitterDate(input.created_at)+"</p>"+
+						"</div></div></a></li>";
 	return result;
 }
 

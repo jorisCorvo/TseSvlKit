@@ -1,0 +1,72 @@
+/*
+Syntax error: Invalid CSS after "left": expected expression (e.g. 1px, bold), was ";"
+        on line 10 of posts.css
+
+5: 
+6: /***************************
+7: /*Images
+8: /************************/
+9: .post_img{
+10: 	float : left;
+11: 	margin : 10px;
+12: 
+13: }
+14: 
+15: .screen_name{
+
+Backtrace:
+posts.css:10
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/scss/parser.rb:898:in `expected'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/script/lexer.rb:193:in `expected!'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/script/parser.rb:458:in `assert_done'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/script/parser.rb:50:in `parse'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/script/parser.rb:140:in `parse'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/script.rb:32:in `parse'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:808:in `parse_script'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:584:in `parse_property'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:573:in `parse_property_or_rule'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:554:in `parse_line'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:447:in `build_tree'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:466:in `block in append_children'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:465:in `each'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:465:in `append_children'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:456:in `block in build_tree'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:449:in `each'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:449:in `build_tree'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:466:in `block in append_children'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:465:in `each'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:465:in `append_children'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:322:in `_to_tree'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:291:in `_render'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/engine.rb:238:in `render'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin/compiler.rb:319:in `update_stylesheet'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin/compiler.rb:169:in `block in update_stylesheets'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin/compiler.rb:167:in `each'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin/compiler.rb:167:in `update_stylesheets'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin/compiler.rb:273:in `block (4 levels) in watch'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/path.rb:71:in `call'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/path.rb:71:in `run_callback'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/path.rb:54:in `callback_action'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/path.rb:34:in `update'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/state/file.rb:19:in `refresh'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/backends/polling.rb:17:in `each'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/backends/polling.rb:17:in `block in run'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/backends/polling.rb:15:in `loop'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/backends/polling.rb:15:in `run'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm/monitor.rb:24:in `run'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/vendor/fssm/lib/fssm.rb:17:in `monitor'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin/compiler.rb:245:in `watch'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/plugin.rb:111:in `method_missing'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/exec.rb:408:in `watch_or_update'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/exec.rb:294:in `process_result'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/exec.rb:41:in `parse'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby191/lib/ruby/gems/1.9.1/gems/sass-3.1.4/bin/sass:8:in `<top (required)>'
+C:/Ruby191/bin/sass:19:in `load'
+C:/Ruby191/bin/sass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"left\": expected expression (e.g. 1px, bold), was \";\"\A         on line 10 of posts.css\A \A 5: \A 6: /***************************\A 7: /*Images\A 8: /************************/\A 9: .post_img{\A 10: 	float : left;\A 11: 	margin : 10px;\A 12: \A 13: }\A 14: \A 15: .screen_name{"; }

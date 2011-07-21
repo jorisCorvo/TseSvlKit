@@ -22,10 +22,13 @@
 	display : inline;
 }
 
-.post_content{
+.post_text{
 	margin-top : 5px;
 	white-space : pre-wrap;
-	
 }
+
+.post_content{
+	float : right;
+	}
 
 
